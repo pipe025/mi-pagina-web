@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyC - Sublimación y Estampados Personalizados</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Fondo llamativo */
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        /* Título con efecto de aparición */
+        h1 {
+            font-size: 4em;
+            text-align: center;
+            margin-top: 50px;
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+               /* Enlace de registro */
+        .registrarse {
+            display: block;
+            text-align: center;
+            background-color: #ff7e5f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 20px auto;
+            width: 200px;
+            text-decoration: none;
+        }
+
+        .registrarse:hover {
+            background-color: #feb47b;
+        }
+
+        /* Texto de bienvenida */
+        .bienvenida {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.5em;
+        }
+
+        /* Sección de productos */
+        .productos {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .producto {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            text-align: center;
+        }
+
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .ficha-tecnica {
+            margin-top: 10px;
+            font-size: 1em;
+            color: white;
+        }
+
+        .precio {
+            font-size: 1.5em;
+            margin-top: 10px;
+            color: #fff;
+        }
+
+        .ver-colores {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #ff7e5f;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Sección de contactos */
+        .contactos {
+            text-align: center;
+            padding: 30px;
+            background-color: #333;
+        }
+
+        .contactos p {
+            font-size: 1.2em;
+        }
+
+        .contactos a {
+            color: #ff7e5f;
+            text-decoration: none;
+        }
+
+        .contactos a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+	
+    <!-- Enlace de registro para pedidos -->
+    <a href="registro.html" class="registrarse">Realice su Pedido</a>
+
+    <!-- Titulo -->
+    <h1>CyC</h1>
+
+    <!-- Texto de bienvenida -->
+    <div class="bienvenida">
+        <p>Bienvenidos a CyC, su mejor opción en sublimación y estampados personalizados. Ofrecemos una gran variedad de productos personalizados, como camisetas, tazas, gorras y más.</p>
+    </div>
+
+    <!-- Sección de productos -->
+    <div class="productos">
+        
+        <!-- Producto 1: Polera -->
+        <div class="producto">
+            <img src="fotos/polera2.jpg" alt="Polera personalizada">
+            <div class="ficha-tecnica">
+                <p><strong>Ficha Técnica:</strong> Algodón 100%, lavado fácil.</p>
+                <p><strong>Composición:</strong> Tejido suave y resistente.</p>
+            </div>
+            <div class="precio">
+                <p><strong>Precio:</strong> $2.800 CLP</p>
+            </div>
+            <a href="colores de poleras dogo.html" class="ver-colores">Ver otros colores</a>
+        </div>
+
+        <!-- Producto 2: Polera -->
+        <div class="producto">
+            <img src="fotos/polera1.jpg" alt="Polera Algodon Mujer">
+            <div class="ficha-tecnica">
+                <p><strong>Ficha Técnica:</strong> Algodón 100%, lavado fácil.</p>
+                <p><strong>Composición:</strong> Tejido suave y resistente.</p>
+            </div>
+            <div class="precio">
+                <p><strong>Precio:</strong> $3.000 CLP</p>
+            </div>
+            <a href="jamaica mujer.html" class="ver-colores">Ver otros colores</a>
+        </div>
+
+        <!-- Producto 3: Polera -->
+        <div class="producto">
+            <img src="fotos/polera3.jpg" alt="Polera Ni�o">
+            <div class="ficha-tecnica">
+                <p><strong>Ficha Técnica:</strong>Algodón 100%, lavado fácil.</p>
+                <p><strong>Composición:</strong>Tejido suave y resistente.</p>
+            </div>
+            <div class="precio">
+                <p><strong>Precio:</strong> $2.300 CLP</p>
+            </div>
+            <a href="" class="ver-colores">Ver otros colores</a>
+        </div>
+
+    </div>
+
+    <!-- Contactos -->
+    <div class="contactos">
+        <p>Si tienes alguna consulta o deseas realizar un pedido personalizado, contáctanos:</p>
+        <p>Teléfono: +569 48157734</p>
+        <p>Email: <a href="mailto:contacto@cycproductos.com">contacto@cycproductos.com</a></p>
+    </div>
+
+</body>
+</html>
